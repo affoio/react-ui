@@ -4,14 +4,7 @@ import { defaultTheme } from '../index';
 export const getDefaultTheme = () => defaultTheme;
 export const getThemeFromProps = path(['theme']);
 
-export const getParamFromTheme = themeProp =>
-  either(
-    path(themeProp),
-    pipe(
-      getDefaultTheme,
-      path(themeProp)
-    )
-  );
+export const getParamFromTheme = themeProp => either(path(themeProp), pipe(getDefaultTheme, path(themeProp)));
 
 export const getBaseIndent = getParamFromTheme(['baseIndent']);
 export const getMultipliedIndent = (theme, coefficient) => `${getBaseIndent(theme) * coefficient}px`;
@@ -30,14 +23,8 @@ export const getTypographySpecificSize = (theme, size) => {
 const getFontSize = ({ fontSize }) => `font-size: ${fontSize};`;
 const getLineHeight = ({ lineHeight }) => `line-height: ${lineHeight};`;
 
-export const getTypographyFontSizeStyles = pipe(
-  getTypographySpecificSize,
-  getFontSize
-);
+export const getTypographyFontSizeStyles = pipe(getTypographySpecificSize, getFontSize);
 
-export const getTypographyLineHeightStyles = pipe(
-  getTypographySpecificSize,
-  getLineHeight
-);
+export const getTypographyLineHeightStyles = pipe(getTypographySpecificSize, getLineHeight);
 
 export const getTypographyFontStyle = converge(concat, [getTypographyFontSizeStyles, getTypographyLineHeightStyles]);

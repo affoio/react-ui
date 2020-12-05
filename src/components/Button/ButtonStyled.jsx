@@ -5,7 +5,11 @@ import { getTypographyFontSizeStyles } from '../../theme/selectors';
 import { sizes } from '../../enums/sizeEnum';
 
 const concatStyles = (...args) => [].reduce.call(args, (a, b) => `${a}${b}`);
-const addStyleByPredicate = ifElse(__, (_, style) => style, () => '');
+const addStyleByPredicate = ifElse(
+  __,
+  (_, style) => style,
+  () => ''
+);
 const addStyleByPredicateWithProps = (predicate, style) => addStyleByPredicate(predicate)(__, style);
 const addHoverStyle = addStyleByPredicate(({ disabled, isLoading }) => !(disabled || isLoading));
 const addLoadingStyle = addStyleByPredicate(({ isLoading }) => isLoading);
@@ -68,7 +72,7 @@ const getTertiaryStyle = props => {
           background-color: ${colors.indigoBlue[200]}
           color: ${colors.indigoBlue[800]};
         }
-  
+
         &:focus {
           background-color: ${colors.indigoBlue[200]};
           color: ${colors.indigoBlue[800]};
@@ -90,7 +94,7 @@ const getTertiaryStyle = props => {
               background-color: ${colors.indigoBlue[700]};
               color: ${colors.white};
             }
-    
+
             &:focus {
               border-color: ${colors.white};
               background-color: ${colors.indigoBlue[700]};
@@ -149,7 +153,7 @@ export const ButtonStyled = styled.button.attrs(({ disabled, isLoading }) => ({
   transition: 0.3s ease-in-out;
   text-transform: uppercase;
   max-width: 100%;
-  
+
   ${addStyleByPredicateWithProps(
     ({ disabled, isLoading }) => disabled && !isLoading,
     `cursor: not-allowed;

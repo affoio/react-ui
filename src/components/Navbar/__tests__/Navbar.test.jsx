@@ -20,7 +20,10 @@ describe('Navbar', () => {
             <NavbarSection>
               <NavbarItemList
                 header="Dashboard"
-                paths={[{ path: '/login', external: true, name: 'login' }, { path: '/forgot', name: 'forgot' }]}
+                paths={[
+                  { path: '/login', external: true, name: 'login' },
+                  { path: '/forgot', name: 'forgot' },
+                ]}
               />
             </NavbarSection>
             <NavbarItem to="/singup">signup</NavbarItem>
@@ -38,7 +41,10 @@ describe('Navbar', () => {
         withProviders(
           <NavbarItemList
             header="Dashboard"
-            paths={[{ path: '/login', external: true, name: 'login' }, { path: '/forgot', name: 'forgot' }]}
+            paths={[
+              { path: '/login', external: true, name: 'login' },
+              { path: '/forgot', name: 'forgot' },
+            ]}
           />
         )
       );
@@ -53,7 +59,10 @@ describe('Navbar', () => {
         withProviders(
           <NavbarItemList
             header="Dashboard"
-            paths={[{ path: '/login', external: true, name: 'login' }, { path: '/forgot', name: 'forgot' }]}
+            paths={[
+              { path: '/login', external: true, name: 'login' },
+              { path: '/forgot', name: 'forgot' },
+            ]}
           />,
           ['/login']
         )

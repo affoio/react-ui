@@ -56,10 +56,7 @@ const updateValueOnlyIfMatch = value => num => (num.match(/^\+[0-9]*$/) ? num : 
 const normalizePhoneValue = (value, prevValue) => {
   const updatePrevValue = updateValueOnlyIfMatch(prevValue);
 
-  return pipe(
-    addLeadingPlusIfEmpty,
-    updatePrevValue
-  )(value);
+  return pipe(addLeadingPlusIfEmpty, updatePrevValue)(value);
 };
 
 const ToggleComponent = ({ selectedOption, arrow, ...other }) => (
