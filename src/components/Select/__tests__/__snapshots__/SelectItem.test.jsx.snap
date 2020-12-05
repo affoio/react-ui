@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SelectItem renders correctly 1`] = `
+.c0 {
+  height: 48px;
+  box-sizing: border-box;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+.c0:hover {
+  background-color: #f6f3fb;
+}
+
+<div
+  className="c0"
+/>
+`;

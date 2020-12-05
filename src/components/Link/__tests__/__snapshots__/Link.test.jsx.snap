@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Link> renders correctly 1`] = `
+.c0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #4718b4;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<a
+  class="c0"
+  href="/link"
+>
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, voluptas.
+</a>
+`;

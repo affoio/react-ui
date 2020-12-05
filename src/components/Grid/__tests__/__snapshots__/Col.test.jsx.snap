@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Col> renders Col 1`] = `
+.c0 {
+  box-sizing: border-box;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  max-width: 100%;
+  padding-right: 8px;
+  padding-left: 8px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div
+  class="c0"
+>
+  Test Text
+</div>
+`;
+
+exports[`<Col> renders Col fullsize in xs 1`] = `
+.c0 {
+  box-sizing: border-box;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  max-width: 100%;
+  padding-right: 8px;
+  padding-left: 8px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (min-width:320px) and (max-width:767px) {
+  .c0 {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 0;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    max-width: 100%;
+  }
+}
+
+<div
+  class="c0"
+>
+  Test Text
+</div>
+`;
+
+exports[`<Col> renders Col with grow 1`] = `
+.c0 {
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+  padding-right: 8px;
+  padding-left: 8px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div
+  class="c0"
+>
+  Test Text
+</div>
+`;
+
+exports[`<Col> renders Col withOffset xs=12 sm=6 lg=4 1`] = `
+.c0 {
+  box-sizing: border-box;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  max-width: 100%;
+  padding-right: 8px;
+  padding-left: 8px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (min-width:320px) and (max-width:767px) {
+  .c0 {
+    margin-left: 100%;
+  }
+}
+
+@media (min-width:768px) and (max-width:1279px) {
+  .c0 {
+    margin-left: 50%;
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 {
+    margin-left: 33.333333333333336%;
+  }
+}
+
+<div
+  class="c0"
+>
+  Test Text
+</div>
+`;
+
+exports[`<Col> renders Col xs=12 sm=6 lg=4 1`] = `
+.c0 {
+  box-sizing: border-box;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  max-width: 100%;
+  padding-right: 8px;
+  padding-left: 8px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (min-width:320px) and (max-width:767px) {
+  .c0 {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:768px) and (max-width:1279px) {
+  .c0 {
+    -webkit-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 {
+    -webkit-flex-basis: 33.333333333333336%;
+    -ms-flex-preferred-size: 33.333333333333336%;
+    flex-basis: 33.333333333333336%;
+    max-width: 33.333333333333336%;
+  }
+}
+
+<div
+  class="c0"
+>
+  Test Text
+</div>
+`;
+
+exports[`<Col> renders hidden in xs Col 1`] = `
+.c0 {
+  box-sizing: border-box;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  max-width: 100%;
+  padding-right: 8px;
+  padding-left: 8px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (min-width:320px) and (max-width:767px) {
+  .c0 {
+    display: none;
+  }
+}
+
+<div
+  class="c0"
+>
+  Test Text
+</div>
+`;

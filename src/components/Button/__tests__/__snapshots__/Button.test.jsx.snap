@@ -1,0 +1,1867 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button> renders default button 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #e2086e;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid #e2086e;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+  max-width: 100%;
+  height: 56px;
+  padding: 0 40px;
+  font-size: 18px;
+}
+
+.c0:hover {
+  border-color: #4718b4;
+  background-color: #4718b4;
+  color: #ffffff;
+}
+
+.c0:active {
+  -webkit-transform: translateY(1px) scale(0.98);
+  -ms-transform: translateY(1px) scale(0.98);
+  transform: translateY(1px) scale(0.98);
+}
+
+.c0:focus {
+  border-color: #4718b4;
+  background-color: #4718b4;
+  color: #ffffff;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.c2 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+<button
+  class="c0"
+  type="button"
+>
+  <div
+    class="c1"
+  >
+    <span
+      class="c2"
+    >
+      Test Text
+    </span>
+  </div>
+</button>
+`;
+
+exports[`<Button> renders fullWidth button 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #e2086e;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid #e2086e;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+  max-width: 100%;
+  height: 40px;
+  padding: 0 16px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.c0:hover {
+  border-color: #4718b4;
+  background-color: #4718b4;
+  color: #ffffff;
+}
+
+.c0:active {
+  -webkit-transform: translateY(1px) scale(0.98);
+  -ms-transform: translateY(1px) scale(0.98);
+  transform: translateY(1px) scale(0.98);
+}
+
+.c0:focus {
+  border-color: #4718b4;
+  background-color: #4718b4;
+  color: #ffffff;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.c2 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+<button
+  class="c0"
+  type="button"
+>
+  <div
+    class="c1"
+  >
+    <span
+      class="c2"
+    >
+      Test Text
+    </span>
+  </div>
+</button>
+`;
+
+exports[`<Button> renders inversed button 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #e2086e;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid #e2086e;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+  max-width: 100%;
+  height: 56px;
+  padding: 0 40px;
+  font-size: 18px;
+  background-color: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.c0:hover {
+  border-color: #4718b4;
+  background-color: #4718b4;
+  color: #ffffff;
+}
+
+.c0:active {
+  -webkit-transform: translateY(1px) scale(0.98);
+  -ms-transform: translateY(1px) scale(0.98);
+  transform: translateY(1px) scale(0.98);
+}
+
+.c0:focus {
+  border-color: #4718b4;
+  background-color: #4718b4;
+  color: #ffffff;
+}
+
+.c0:hover {
+  border-color: #ffffff;
+  background-color: #ffffff;
+  color: #4718b4;
+}
+
+.c0:focus {
+  border-color: #ffffff;
+  background-color: #ffffff;
+  color: #4718b4;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.c2 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+<button
+  class="c0"
+  type="button"
+>
+  <div
+    class="c1"
+  >
+    <span
+      class="c2"
+    >
+      Test Text
+    </span>
+  </div>
+</button>
+`;
+
+exports[`<Button> renders loading button 1`] = `
+.c5 {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  margin: 4px;
+  background: #ffffff;
+}
+
+.c5:nth-child(1) {
+  -webkit-animation: pulse 1s ease-in infinite alternate;
+  animation: pulse 1s ease-in infinite alternate;
+}
+
+.c5:nth-child(2) {
+  -webkit-animation: pulse 1s ease-in infinite alternate;
+  animation: pulse 1s ease-in infinite alternate;
+  -webkit-animation-delay: 0.33s;
+  animation-delay: 0.33s;
+}
+
+.c5:nth-child(3) {
+  -webkit-animation: pulse 1s ease-in infinite alternate;
+  animation: pulse 1s ease-in infinite alternate;
+  -webkit-animation-delay: 0.66s;
+  animation-delay: 0.66s;
+}
+
+.c4 {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  min-width: 50px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #e2086e;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid #e2086e;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+  max-width: 100%;
+  height: 56px;
+  padding: 0 40px;
+  font-size: 18px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  visibility: hidden;
+  max-width: 100%;
+}
+
+.c3 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+<button
+  class="c0"
+  disabled=""
+  type="button"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        Test Text
+      </span>
+    </div>
+    <div
+      class="c4"
+    >
+      <div
+        class="c5"
+      />
+      <div
+        class="c5"
+      />
+      <div
+        class="c5"
+      />
+    </div>
+  </div>
+</button>
+`;
+
+exports[`<Button> renders secondary button 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #e2086e;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid #e2086e;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+  max-width: 100%;
+  height: 56px;
+  padding: 0 40px;
+  font-size: 18px;
+  background-color: transparent;
+  color: #e2086e;
+  border-color: #e2086e;
+}
+
+.c0:hover {
+  border-color: #4718b4;
+  background-color: #4718b4;
+  color: #ffffff;
+}
+
+.c0:active {
+  -webkit-transform: translateY(1px) scale(0.98);
+  -ms-transform: translateY(1px) scale(0.98);
+  transform: translateY(1px) scale(0.98);
+}
+
+.c0:focus {
+  border-color: #4718b4;
+  background-color: #4718b4;
+  color: #ffffff;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.c2 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+<button
+  class="c0"
+  type="button"
+>
+  <div
+    class="c1"
+  >
+    <span
+      class="c2"
+    >
+      Test Text
+    </span>
+  </div>
+</button>
+`;
+
+exports[`<Button> renders secondary inversed button 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #e2086e;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid #e2086e;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+  max-width: 100%;
+  height: 56px;
+  padding: 0 40px;
+  font-size: 18px;
+  background-color: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.c0:hover {
+  border-color: #4718b4;
+  background-color: #4718b4;
+  color: #ffffff;
+}
+
+.c0:active {
+  -webkit-transform: translateY(1px) scale(0.98);
+  -ms-transform: translateY(1px) scale(0.98);
+  transform: translateY(1px) scale(0.98);
+}
+
+.c0:focus {
+  border-color: #4718b4;
+  background-color: #4718b4;
+  color: #ffffff;
+}
+
+.c0:hover {
+  border-color: #ffffff;
+  background-color: #ffffff;
+  color: #4718b4;
+}
+
+.c0:focus {
+  border-color: #ffffff;
+  background-color: #ffffff;
+  color: #4718b4;
+}
+
+.c0:hover {
+  border-color: #ffffff;
+  background-color: #ffffff;
+  color: #4718b4;
+}
+
+.c0:focus {
+  border-color: #ffffff;
+  background-color: #ffffff;
+  color: #4718b4;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.c2 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+<button
+  class="c0"
+  type="button"
+>
+  <div
+    class="c1"
+  >
+    <span
+      class="c2"
+    >
+      Test Text
+    </span>
+  </div>
+</button>
+`;
+
+exports[`<Button> renders secondary inversed loading button 1`] = `
+.c5 {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  margin: 4px;
+  background: #ffffff;
+}
+
+.c5:nth-child(1) {
+  -webkit-animation: pulse 1s ease-in infinite alternate;
+  animation: pulse 1s ease-in infinite alternate;
+}
+
+.c5:nth-child(2) {
+  -webkit-animation: pulse 1s ease-in infinite alternate;
+  animation: pulse 1s ease-in infinite alternate;
+  -webkit-animation-delay: 0.33s;
+  animation-delay: 0.33s;
+}
+
+.c5:nth-child(3) {
+  -webkit-animation: pulse 1s ease-in infinite alternate;
+  animation: pulse 1s ease-in infinite alternate;
+  -webkit-animation-delay: 0.66s;
+  animation-delay: 0.66s;
+}
+
+.c4 {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  min-width: 50px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #e2086e;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid #e2086e;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+  max-width: 100%;
+  height: 56px;
+  padding: 0 40px;
+  font-size: 18px;
+  background-color: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  visibility: hidden;
+  max-width: 100%;
+}
+
+.c3 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+<button
+  class="c0"
+  disabled=""
+  type="button"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        Test Text
+      </span>
+    </div>
+    <div
+      class="c4"
+    >
+      <div
+        class="c5"
+      />
+      <div
+        class="c5"
+      />
+      <div
+        class="c5"
+      />
+    </div>
+  </div>
+</button>
+`;
+
+exports[`<Button> renders secondary loading button 1`] = `
+.c5 {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  margin: 4px;
+  background: #e2086e;
+}
+
+.c5:nth-child(1) {
+  -webkit-animation: pulse 1s ease-in infinite alternate;
+  animation: pulse 1s ease-in infinite alternate;
+}
+
+.c5:nth-child(2) {
+  -webkit-animation: pulse 1s ease-in infinite alternate;
+  animation: pulse 1s ease-in infinite alternate;
+  -webkit-animation-delay: 0.33s;
+  animation-delay: 0.33s;
+}
+
+.c5:nth-child(3) {
+  -webkit-animation: pulse 1s ease-in infinite alternate;
+  animation: pulse 1s ease-in infinite alternate;
+  -webkit-animation-delay: 0.66s;
+  animation-delay: 0.66s;
+}
+
+.c4 {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  min-width: 50px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #e2086e;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid #e2086e;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+  max-width: 100%;
+  height: 56px;
+  padding: 0 40px;
+  font-size: 18px;
+  background-color: transparent;
+  color: #e2086e;
+  border-color: #e2086e;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  visibility: hidden;
+  max-width: 100%;
+}
+
+.c3 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+<button
+  class="c0"
+  disabled=""
+  type="button"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        Test Text
+      </span>
+    </div>
+    <div
+      class="c4"
+    >
+      <div
+        class="c5"
+      />
+      <div
+        class="c5"
+      />
+      <div
+        class="c5"
+      />
+    </div>
+  </div>
+</button>
+`;
+
+exports[`<Button> renders small button 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #e2086e;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid #e2086e;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+  max-width: 100%;
+  height: 40px;
+  padding: 0 16px;
+  font-size: 14px;
+}
+
+.c0:hover {
+  border-color: #4718b4;
+  background-color: #4718b4;
+  color: #ffffff;
+}
+
+.c0:active {
+  -webkit-transform: translateY(1px) scale(0.98);
+  -ms-transform: translateY(1px) scale(0.98);
+  transform: translateY(1px) scale(0.98);
+}
+
+.c0:focus {
+  border-color: #4718b4;
+  background-color: #4718b4;
+  color: #ffffff;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.c2 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+<button
+  class="c0"
+  type="button"
+>
+  <div
+    class="c1"
+  >
+    <span
+      class="c2"
+    >
+      Test Text
+    </span>
+  </div>
+</button>
+`;
+
+exports[`<Button> renders tertiary button 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #e2086e;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid #e2086e;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+  max-width: 100%;
+  height: 56px;
+  padding: 0 40px;
+  font-size: 18px;
+  background-color: transparent;
+  color: #4718b4;
+  border-color: transparent;
+  height: 32px;
+  font-size: 16px;
+  text-transform: none;
+  padding: 0 8px;
+  font-weight: 400;
+}
+
+.c0:hover {
+  border-color: #4718b4;
+  background-color: #4718b4;
+  color: #ffffff;
+}
+
+.c0:active {
+  -webkit-transform: translateY(1px) scale(0.98);
+  -ms-transform: translateY(1px) scale(0.98);
+  transform: translateY(1px) scale(0.98);
+}
+
+.c0:focus {
+  border-color: #4718b4;
+  background-color: #4718b4;
+  color: #ffffff;
+}
+
+.c0:hover {
+  border-color: transparent;
+  background-color: #ece7f7;
+  color: #4718b4;
+}
+
+.c0:focus {
+  background-color: #ece7f7;
+  color: #4718b4;
+  border-color: #4718b4;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.c2 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+<button
+  class="c0"
+  type="button"
+>
+  <div
+    class="c1"
+  >
+    <span
+      class="c2"
+    >
+      Test Text
+    </span>
+  </div>
+</button>
+`;
+
+exports[`<Button> renders tertiary inversed button 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #e2086e;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid #e2086e;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+  max-width: 100%;
+  height: 56px;
+  padding: 0 40px;
+  font-size: 18px;
+  background-color: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+  background-color: transparent;
+  color: #4718b4;
+  border-color: transparent;
+  height: 32px;
+  font-size: 16px;
+  text-transform: none;
+  padding: 0 8px;
+  font-weight: 400;
+  border-color: transparent;
+  color: #ffffff;
+}
+
+.c0:hover {
+  border-color: #4718b4;
+  background-color: #4718b4;
+  color: #ffffff;
+}
+
+.c0:active {
+  -webkit-transform: translateY(1px) scale(0.98);
+  -ms-transform: translateY(1px) scale(0.98);
+  transform: translateY(1px) scale(0.98);
+}
+
+.c0:focus {
+  border-color: #4718b4;
+  background-color: #4718b4;
+  color: #ffffff;
+}
+
+.c0:hover {
+  border-color: #ffffff;
+  background-color: #ffffff;
+  color: #4718b4;
+}
+
+.c0:focus {
+  border-color: #ffffff;
+  background-color: #ffffff;
+  color: #4718b4;
+}
+
+.c0:hover {
+  border-color: transparent;
+  background-color: #ece7f7;
+  color: #4718b4;
+}
+
+.c0:focus {
+  background-color: #ece7f7;
+  color: #4718b4;
+  border-color: #4718b4;
+}
+
+.c0:hover {
+  border-color: transparent;
+  background-color: #623abf;
+  color: #ffffff;
+}
+
+.c0:focus {
+  border-color: #ffffff;
+  background-color: #623abf;
+  color: #ffffff;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.c2 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+<button
+  class="c0"
+  type="button"
+>
+  <div
+    class="c1"
+  >
+    <span
+      class="c2"
+    >
+      Test Text
+    </span>
+  </div>
+</button>
+`;
+
+exports[`<Button> renders tertiary inversed loading button 1`] = `
+.c5 {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  margin: 4px;
+  background: #ffffff;
+}
+
+.c5:nth-child(1) {
+  -webkit-animation: pulse 1s ease-in infinite alternate;
+  animation: pulse 1s ease-in infinite alternate;
+}
+
+.c5:nth-child(2) {
+  -webkit-animation: pulse 1s ease-in infinite alternate;
+  animation: pulse 1s ease-in infinite alternate;
+  -webkit-animation-delay: 0.33s;
+  animation-delay: 0.33s;
+}
+
+.c5:nth-child(3) {
+  -webkit-animation: pulse 1s ease-in infinite alternate;
+  animation: pulse 1s ease-in infinite alternate;
+  -webkit-animation-delay: 0.66s;
+  animation-delay: 0.66s;
+}
+
+.c4 {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  min-width: 50px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #e2086e;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid #e2086e;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+  max-width: 100%;
+  height: 56px;
+  padding: 0 40px;
+  font-size: 18px;
+  background-color: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+  background-color: transparent;
+  color: #4718b4;
+  border-color: transparent;
+  height: 32px;
+  font-size: 16px;
+  text-transform: none;
+  padding: 0 8px;
+  font-weight: 400;
+  background-color: #ece7f7;
+  border-color: transparent;
+  color: #ffffff;
+  background-color: #623abf;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  visibility: hidden;
+  max-width: 100%;
+}
+
+.c3 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+<button
+  class="c0"
+  disabled=""
+  type="button"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        Test Text
+      </span>
+    </div>
+    <div
+      class="c4"
+    >
+      <div
+        class="c5"
+      />
+      <div
+        class="c5"
+      />
+      <div
+        class="c5"
+      />
+    </div>
+  </div>
+</button>
+`;
+
+exports[`<Button> renders tertiary loading button 1`] = `
+.c5 {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  margin: 4px;
+  background: #4718b4;
+}
+
+.c5:nth-child(1) {
+  -webkit-animation: pulse 1s ease-in infinite alternate;
+  animation: pulse 1s ease-in infinite alternate;
+}
+
+.c5:nth-child(2) {
+  -webkit-animation: pulse 1s ease-in infinite alternate;
+  animation: pulse 1s ease-in infinite alternate;
+  -webkit-animation-delay: 0.33s;
+  animation-delay: 0.33s;
+}
+
+.c5:nth-child(3) {
+  -webkit-animation: pulse 1s ease-in infinite alternate;
+  animation: pulse 1s ease-in infinite alternate;
+  -webkit-animation-delay: 0.66s;
+  animation-delay: 0.66s;
+}
+
+.c4 {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  min-width: 50px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #e2086e;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid #e2086e;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+  max-width: 100%;
+  height: 56px;
+  padding: 0 40px;
+  font-size: 18px;
+  background-color: transparent;
+  color: #4718b4;
+  border-color: transparent;
+  height: 32px;
+  font-size: 16px;
+  text-transform: none;
+  padding: 0 8px;
+  font-weight: 400;
+  background-color: #ece7f7;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  visibility: hidden;
+  max-width: 100%;
+}
+
+.c3 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+<button
+  class="c0"
+  disabled=""
+  type="button"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        Test Text
+      </span>
+    </div>
+    <div
+      class="c4"
+    >
+      <div
+        class="c5"
+      />
+      <div
+        class="c5"
+      />
+      <div
+        class="c5"
+      />
+    </div>
+  </div>
+</button>
+`;
+
+exports[`<Button> renders with after element 1`] = `
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-left: 4px;
+  width: 20px;
+  height: 20px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #e2086e;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid #e2086e;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+  max-width: 100%;
+  height: 40px;
+  padding: 0 16px;
+  font-size: 14px;
+}
+
+.c0:hover {
+  border-color: #4718b4;
+  background-color: #4718b4;
+  color: #ffffff;
+}
+
+.c0:active {
+  -webkit-transform: translateY(1px) scale(0.98);
+  -ms-transform: translateY(1px) scale(0.98);
+  transform: translateY(1px) scale(0.98);
+}
+
+.c0:focus {
+  border-color: #4718b4;
+  background-color: #4718b4;
+  color: #ffffff;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.c2 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+<button
+  class="c0"
+  type="button"
+>
+  <div
+    class="c1"
+  >
+    <span
+      class="c2"
+    >
+      Test Text
+    </span>
+    <div
+      class="c3"
+    >
+      <img
+        src="plus.svg"
+      />
+    </div>
+  </div>
+</button>
+`;
+
+exports[`<Button> renders with before element 1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: 4px;
+  width: 24px;
+  height: 24px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #e2086e;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid #e2086e;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+  max-width: 100%;
+  height: 56px;
+  padding: 0 40px;
+  font-size: 18px;
+}
+
+.c0:hover {
+  border-color: #4718b4;
+  background-color: #4718b4;
+  color: #ffffff;
+}
+
+.c0:active {
+  -webkit-transform: translateY(1px) scale(0.98);
+  -ms-transform: translateY(1px) scale(0.98);
+  transform: translateY(1px) scale(0.98);
+}
+
+.c0:focus {
+  border-color: #4718b4;
+  background-color: #4718b4;
+  color: #ffffff;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.c3 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+<button
+  class="c0"
+  type="button"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <img
+        src="plus.svg"
+      />
+    </div>
+    <span
+      class="c3"
+    >
+      Test Text
+    </span>
+  </div>
+</button>
+`;

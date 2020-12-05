@@ -1,0 +1,6 @@
+/dev
+/stories
+/config
+/.storybook
+/coverage
+.gitlab-ci.yml

@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Container> renders Container 1`] = `
+.c0 {
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+<div
+  class="c0"
+>
+  Test Text
+</div>
+`;
+
+exports[`<Container> renders Container with theme 1`] = `
+.c0 {
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+<div
+  class="c0"
+>
+  Test Text
+</div>
+`;
+
+exports[`<Container> renders fullWidth Container 1`] = `
+.c0 {
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+<div
+  class="c0"
+>
+  Test Text
+</div>
+`;

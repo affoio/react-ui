@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SelectButton renders correctly 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #e2086e;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid #e2086e;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+  max-width: 100%;
+  height: 40px;
+  padding: 0 16px;
+  font-size: 14px;
+  background-color: transparent;
+  color: #4718b4;
+  border-color: transparent;
+  height: 32px;
+  font-size: 16px;
+  text-transform: none;
+  padding: 0 8px;
+  font-weight: 400;
+}
+
+.c1:hover {
+  border-color: #4718b4;
+  background-color: #4718b4;
+  color: #ffffff;
+}
+
+.c1:active {
+  -webkit-transform: translateY(1px) scale(0.98);
+  -ms-transform: translateY(1px) scale(0.98);
+  transform: translateY(1px) scale(0.98);
+}
+
+.c1:focus {
+  border-color: #4718b4;
+  background-color: #4718b4;
+  color: #ffffff;
+}
+
+.c1:hover {
+  border-color: transparent;
+  background-color: #ece7f7;
+  color: #4718b4;
+}
+
+.c1:focus {
+  background-color: #ece7f7;
+  color: #4718b4;
+  border-color: #4718b4;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.c3 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.c0 {
+  padding: 0 16px;
+  color: #000000;
+  height: 40px;
+  line-height: 40px;
+}
+
+.c0:hover {
+  color: #000000;
+  background-color: #f2f2f2;
+}
+
+.c0:focus {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+<button
+  className="c0 c1"
+  size="s"
+  type="button"
+>
+  <div
+    className="c2"
+  >
+    <span
+      className="c3"
+    />
+  </div>
+</button>
+`;

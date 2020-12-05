@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkbox /> renders correctly 1`] = `
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.c1:hover {
+  cursor: pointer;
+}
+
+.c2 {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  min-width: 18px;
+  border: 2px solid #4718b4;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin-right: 8px;
+  -webkit-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+}
+
+.c0:hover .c2 {
+  background-color: #ece7f7;
+}
+
+<div
+  class="c0 c1"
+>
+  <div
+    class="c2"
+  />
+</div>
+`;
+
+exports[`<Checkbox /> renders correctly after check 1`] = `
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.c1:hover {
+  cursor: pointer;
+}
+
+.c0:hover .c3 {
+  background-color: #ece7f7;
+}
+
+.c2 {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  min-width: 18px;
+  border: 2px solid #4718b4;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin-right: 8px;
+  -webkit-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+  background-color: #4718b4;
+  background-image: url(check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+<div
+  class="c0 c1"
+>
+  <div
+    class="c2"
+  />
+</div>
+`;
+
+exports[`<Checkbox /> renders correctly with defaultChecked 1`] = `
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.c1:hover {
+  cursor: pointer;
+}
+
+.c0:hover .c3 {
+  background-color: #ece7f7;
+}
+
+.c2 {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  min-width: 18px;
+  border: 2px solid #4718b4;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin-right: 8px;
+  -webkit-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+  background-color: #4718b4;
+  background-image: url(check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+<div
+  class="c0 c1"
+>
+  <div
+    checked=""
+    class="c2"
+  />
+</div>
+`;
+
+exports[`<Checkbox /> renders correctly with disabled 1`] = `
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 24px;
+  margin-right: 8px;
+  opacity: 0.5;
+}
+
+.c1:hover {
+  cursor: pointer;
+}
+
+.c1:hover {
+  cursor: default;
+}
+
+.c0:hover .c3 {
+  background-color: #ece7f7;
+}
+
+.c2 {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  min-width: 18px;
+  border: 2px solid #4718b4;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin-right: 8px;
+  -webkit-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+}
+
+<div
+  class="c0 c1"
+  disabled=""
+>
+  <div
+    class="c2"
+    disabled=""
+  />
+</div>
+`;
+
+exports[`<Checkbox /> renders correctly with label 1`] = `
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.c1:hover {
+  cursor: pointer;
+}
+
+.c3 {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.c2 {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  min-width: 18px;
+  border: 2px solid #4718b4;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin-right: 8px;
+  -webkit-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+}
+
+.c0:hover .c2 {
+  background-color: #ece7f7;
+}
+
+<div
+  class="c0 c1"
+>
+  <div
+    class="c2"
+  />
+  <div
+    class="c3"
+  >
+    Label
+  </div>
+</div>
+`;

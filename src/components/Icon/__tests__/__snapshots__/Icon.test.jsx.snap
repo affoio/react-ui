@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Icon> renders correctly 1`] = `
+.c0 {
+  fill: currentColor;
+}
+
+<svg
+  class="c0"
+/>
+`;
+
+exports[`<Icon> renders correctly with color 1`] = `
+.c0 {
+  fill: red;
+}
+
+<svg
+  class="c0"
+  color="red"
+/>
+`;
+
+exports[`<Icon> renders correctly with hoverColor 1`] = `
+.c0 {
+  fill: currentColor;
+}
+
+.c0:hover {
+  fill: red;
+}
+
+<svg
+  class="c0"
+/>
+`;
