@@ -3,4 +3,4 @@
 /config
 /.storybook
 /coverage
-.gitlab-ci.yml
+/.github

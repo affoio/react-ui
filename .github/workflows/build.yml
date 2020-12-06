@@ -1,4 +1,4 @@
-name: ci
+name: Node.js CI
 
 on: [push, pull_request]
 
@@ -23,3 +23,5 @@ jobs:
           yarn build
           yarn lint
           yarn test
+        env:
+          CI: true
