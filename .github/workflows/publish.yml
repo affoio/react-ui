@@ -11,8 +11,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: "12.x"
-          # Defaults to the user or organization that owns the workflow file
-          scope: "@affoio"
-      - run: echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > ~/.npmrc && yarn publish --access public
+          registry-url: "https://registry.npmjs.org"
+      - run: npm install
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
