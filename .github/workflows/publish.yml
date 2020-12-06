@@ -15,7 +15,6 @@ jobs:
           always-auth: true
           # Defaults to the user or organization that owns the workflow file
           scope: "@affoio"
-      - run: yarn
-      - run: yarn publish --access public
+      - run: echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > ~/.npmrc && yarn publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
