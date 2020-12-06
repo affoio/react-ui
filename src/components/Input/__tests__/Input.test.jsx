@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, shallow, mount } from 'enzyme';
+import { render, mount } from 'enzyme';
 import Input from '../Input';
 import SearchIcon from '../../Icon/SearchIcon';
 import { InputStyled } from '../InputStyled';
@@ -13,7 +13,7 @@ describe('<Input>', () => {
       expect(tree).toMatchSnapshot();
     });
     it('renders correctly with label', () => {
-      const wrapper = shallow(<Input label="Some label" />);
+      const wrapper = mount(<Input label="Some label" />);
 
       const controlWrapper = wrapper.find(Control);
 
@@ -22,7 +22,7 @@ describe('<Input>', () => {
     });
 
     it('renders correctly with helperText', () => {
-      const wrapper = shallow(<Input helperText="Some helper text" />);
+      const wrapper = mount(<Input helperText="Some helper text" />);
       const controlWrapper = wrapper.find(Control);
 
       expect(controlWrapper.length).toBe(1);
@@ -36,7 +36,7 @@ describe('<Input>', () => {
     });
 
     it('renders correctly with error', () => {
-      const wrapper = shallow(<Input error="Oh no error" />);
+      const wrapper = mount(<Input error="Oh no error" />);
 
       const controlWrapper = wrapper.find(Control);
       expect(controlWrapper.length).toBe(1);
@@ -75,7 +75,7 @@ describe('<Input>', () => {
   describe('Input handlers', () => {
     it('calls onFocus when it passed', () => {
       const mockFn = jest.fn();
-      const wrapper = shallow(<Input onFocus={mockFn} />);
+      const wrapper = mount(<Input onFocus={mockFn} />);
       wrapper.find(InputStyled).simulate('focus');
 
       expect(wrapper.find(Control).props().focused).toBe(true);
@@ -83,7 +83,7 @@ describe('<Input>', () => {
     });
 
     it('doesnt calls onFocus when it does not passed', () => {
-      const wrapper = shallow(<Input />);
+      const wrapper = mount(<Input />);
       wrapper.find(InputStyled).simulate('focus');
 
       expect(wrapper.find(Control).props().focused).toBe(true);
@@ -91,7 +91,7 @@ describe('<Input>', () => {
 
     it('calls onBlur when it passed', () => {
       const mockFn = jest.fn();
-      const wrapper = shallow(<Input onBlur={mockFn} />);
+      const wrapper = mount(<Input onBlur={mockFn} />);
       wrapper.find(InputStyled).simulate('blur');
 
       expect(wrapper.find(Control).props().focused).toBe(false);
@@ -100,7 +100,7 @@ describe('<Input>', () => {
 
     it('doesnt calls onBlur when it does not passed', () => {
       const mockFn = jest.fn();
-      const wrapper = shallow(<Input />);
+      const wrapper = mount(<Input />);
       wrapper.find(InputStyled).simulate('blur');
 
       expect(wrapper.find(Control).props().focused).toBe(false);

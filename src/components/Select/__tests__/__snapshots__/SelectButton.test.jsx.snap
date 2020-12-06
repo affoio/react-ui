@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<SelectButton renders correctly 1`] = `
-.c1 {
+.c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -40,31 +40,31 @@ exports[`<SelectButton renders correctly 1`] = `
   font-weight: 400;
 }
 
-.c1:hover {
+.c0:hover {
   border-color: #4718b4;
   background-color: #4718b4;
   color: #ffffff;
 }
 
-.c1:active {
+.c0:active {
   -webkit-transform: translateY(1px) scale(0.98);
   -ms-transform: translateY(1px) scale(0.98);
   transform: translateY(1px) scale(0.98);
 }
 
-.c1:focus {
+.c0:focus {
   border-color: #4718b4;
   background-color: #4718b4;
   color: #ffffff;
 }
 
-.c1:hover {
+.c0:hover {
   border-color: transparent;
   background-color: #ece7f7;
   color: #4718b4;
 }
 
-.c1:focus {
+.c0:focus {
   background-color: #ece7f7;
   color: #4718b4;
   border-color: #4718b4;
@@ -92,19 +92,19 @@ exports[`<SelectButton renders correctly 1`] = `
   white-space: nowrap;
 }
 
-.c0 {
+.c1 {
   padding: 0 16px;
   color: #000000;
   height: 40px;
   line-height: 40px;
 }
 
-.c0:hover {
+.c1:hover {
   color: #000000;
   background-color: #f2f2f2;
 }
 
-.c0:focus {
+.c1:focus {
   color: #000000;
   background-color: #ffffff;
 }

@@ -751,11 +751,11 @@ exports[`<Row> renders Row fluid 2`] = `
 }
 
 @media (min-width:320px) and (max-width:767px) {
-  .c0 > .Col-sc-1dymzdx-0:first-child {
+  .c0 > .Col-sc-11skcg5-0:first-child {
     padding-left: 0;
   }
 
-  .c0 > .Col-sc-1dymzdx-0:last-child {
+  .c0 > .Col-sc-11skcg5-0:last-child {
     padding-right: 0;
   }
 }
@@ -788,21 +788,21 @@ exports[`<Row> renders Row fluid 3`] = `
 }
 
 @media (min-width:320px) and (max-width:767px) {
-  .c0 > .Col-sc-1dymzdx-0:first-child {
+  .c0 > .Col-sc-11skcg5-0:first-child {
     padding-left: 0;
   }
 
-  .c0 > .Col-sc-1dymzdx-0:last-child {
+  .c0 > .Col-sc-11skcg5-0:last-child {
     padding-right: 0;
   }
 }
 
 @media (min-width:1280px) {
-  .c0 > .Col-sc-1dymzdx-0:first-child {
+  .c0 > .Col-sc-11skcg5-0:first-child {
     padding-left: 0;
   }
 
-  .c0 > .Col-sc-1dymzdx-0:last-child {
+  .c0 > .Col-sc-11skcg5-0:last-child {
     padding-right: 0;
   }
 }

@@ -88,7 +88,7 @@ exports[`Navbar renders correctly 1`] = `
   background-color: #f6f3fb;
 }
 
-.c5 {
+.c4 {
   fill: #bfbfbf;
 }
 
@@ -110,7 +110,7 @@ exports[`Navbar renders correctly 1`] = `
   height: 24px;
 }
 
-.c4 {
+.c5 {
   -webkit-transform: rotate(0);
   -ms-transform: rotate(0);
   transform: rotate(0);

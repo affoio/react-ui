@@ -173,9 +173,14 @@ const Test = () => {
         <Col sm={6}>
           <Select
             onChange={value => console.log(value)}
-            options={[{ value: 2, label: 'afgan' }, { value: 3, label: 'russ' }, { value: 4, label: 'Russ' }]}
+            options={[
+              { value: 2, label: 'afgan' },
+              { value: 3, label: 'russ' },
+              { value: 4, label: 'Russ' },
+            ]}
             label="Country"
             placeholder="Country"
+            isSearchable
           />
         </Col>
         <Col sm={6}>
@@ -213,7 +218,11 @@ const Test = () => {
         <Col sm={6}>
           <Select
             onChange={value => console.log(value)}
-            options={[{ value: 2, label: 'afgan' }, { value: 3, label: 'russ' }, { value: 4, label: 'Russ' }]}
+            options={[
+              { value: 2, label: 'afgan' },
+              { value: 3, label: 'russ' },
+              { value: 4, label: 'Russ' },
+            ]}
             label="Country"
             placeholder="Country"
           />
@@ -271,7 +280,10 @@ const Test = () => {
         </Col>
         <NavbarItemList
           header="Dashboard"
-          paths={[{ path: '/login', external: true, name: 'login' }, { path: '/forgot', name: 'forgot' }]}
+          paths={[
+            { path: '/login', external: true, name: 'login' },
+            { path: '/forgot', name: 'forgot' },
+          ]}
         />
       </Row>
       <Col sm={2} lg={2}>
