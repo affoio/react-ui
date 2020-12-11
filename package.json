@@ -8,9 +8,6 @@
     "url": "https://github.com/affoio/react-ui"
   },
   "license": "ISC",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "scripts": {
     "start": "NODE_ENV=development babel-node dev/server",
     "start:prod": "NODE_ENV=production babel-node dev/server",
