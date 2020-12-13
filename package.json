@@ -2,7 +2,7 @@
   "name": "@affoio/react-ui",
   "description": "An enterprise-class UI design language and React-based implementation",
   "main": "dist/index.js",
-  "version": "1.1.50",
+  "version": "1.1.51",
   "repository": {
     "type": "git",
     "url": "https://github.com/affoio/react-ui"

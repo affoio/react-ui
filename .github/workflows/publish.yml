@@ -12,8 +12,12 @@ jobs:
           node-version: 12
           registry-url: "https://registry.npmjs.org"
           scope: '@affoio'
-      - run: npm install
-      - run: npm publish --access public
+      - run: npm install -g yarn
+      - name: yarn install, build, lint and test
+        run: |
+          yarn
+          yarn build
+      - run: yarn publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           CI: true
